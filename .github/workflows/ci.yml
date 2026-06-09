@@ -28,6 +28,8 @@ jobs:
     steps:
     - name: Deploy to production
       run: echo "Deploying to production..."
+    - name: print contents
+      run: ls -la
     - name: print from app.py
       run: python app.py 
 
