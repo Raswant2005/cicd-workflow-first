@@ -1,4 +1,4 @@
-from test_app import c
+from test_app import company
 def add(x,y):
     return x + y
 
@@ -29,5 +29,5 @@ class Company:
             raise ValueError("Employee with this ID does not exist")
         del self.employees[employee_id]
         
-        
+print(company().employees)
 print("Completed app.py")
