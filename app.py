@@ -28,3 +28,6 @@ class Company:
         if employee_id not in self.employees:
             raise ValueError("Employee with this ID does not exist")
         del self.employees[employee_id]
+        
+        
+print("Completed app.py")
