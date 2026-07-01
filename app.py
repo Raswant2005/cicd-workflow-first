@@ -1,14 +1,11 @@
-from test_app import company
-
-
-def add(x, y):
+def add1(x, y):
     return x + y
 
 
-print("From app.py buddy:", add(2, 3))
+print("From app.py buddy:", add1(2, 3))
 
 
-def div(x1, y1):
+def div1(x1, y1):
     if y1 <= 0:
         raise ValueError("Denominators must be greater than zero")
     return x1 / y1
@@ -34,5 +31,4 @@ class Company:
         del self.employees[employee_id]
 
 
-print(company().employees)
 print("Completed app.py")
